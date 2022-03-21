@@ -1,106 +1,131 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<title>clara</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-    <title>clara lívia</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <header class="container-fluid" id="container">
-        <div class="row">
-            <div class="col-3">
-                <a href="#" alt="betabase - home" title="Home"><img id="logo" src="assets/img/logo.png"></a>
-            </div>
-            <div class="col-md-9 ms-md-auto">
-                <ul class="nav">
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contatos">Contatos</a></li>
-                    <li><a href="https://github.com/claralivia/">GitHub</a></li>
-                    <li><a href="#um">Sobre</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <div class="container-fluid" id="container">
-        <div class="row justify-content-start" id="who">
-            <div id="profile" class="col-3">
-                <a href="https://instagram.com/claraliviia" alt="betabase - home" title="Instagram"><img class="profile" src="assets/img/clara-profile.png"></a>
-            </div>
-            <div class="col-md-9">
-                <label id="apresentation">
-                    <h3 class="apresentation"><strong>Oioi, eu sou a Clara Lívia!</strong></h3>
-                    <p>Atualmente sou estudante do último semestre
-                        do <strong>curso técnico em informática</strong> pelo <a class="ifce" href="https://ifce.edu.br">Instituto Federal
-                        de Educação, Ciência e Tecnologia do Ceará (IFCE)</a> - campus Fortaleza.
-                    </p>
-                    <p>Amo desenvolvimento front-end e pretendo ingressar no curso de <strong>Ciência da Computação</strong>,
-                        em 2022, também pela rede Federal.
-                    </p>
-                </label>
-            </div>
-        </div>
-        <section id="um">
-            <div class="row" id="center">
-                <div class="col" id="conteudo">
-                    <label>
-                        <h4><strong>Design Gráfico</strong></h4><br>
-                        <p>Hey, sou uma estudante de programação apaixonada por design gráfico.</p>
-                        <p>Que tal dar uma olhada nos meus trabalhos?</p>
-                        <div  id="portfolio">
-                            <a href="https://www.behance.net/claralivia/" class="portfolio"><strong>Meu Portfólio...</strong></a><br>
-                        </div>
-                    </label>
-                </div>
-                <div class="col" id="conteudo">
-                    <label>
-                        <h4><strong>Programação</strong></h4><br>
-                        <p>Já realizei alguns projetinhos em algumas linguagens,
-                            como Python, Java e JavaScript.
-                        </p>
-                        <p>Clica no link e dá uma conferida, alguns são projetos escolares.</p>
-                        <div  id="portfolio">
-                            <a href="https://github.com/claralivia/" class="portfolio"><strong>Meu GitHub...</strong></a><br>
-                        </div>
-                    </label>
-                </div>
-                <div class="col" id="conteudo">
-                    <label>
-                        <h4><strong>Linkedin</strong></h4><br>
-                        <p>Procuro uma oportunidade para ingressar no mercado de trabalho
-                            e desenvolver minhas habilidades e adquirir novos
-                            conhecimentos.
-                        </p>
-                        <p>Já fiz alguns cursos na área.</p>
-                        <div  id="portfolio">
-                            <a href="https://www.linkedin.com/in/claralivia/" class="portfolio"><strong>Meu Currículo...</strong></a><br>
-                        </div>
-                    </label>
-                </div>
-            </div> 
-        </section>
-    </div>
-    <footer class="container-fluid">
-        <div class="row">
-			<div class="col-md-2"><a href="#"><img class="logo" src="assets/img/logo.png"></a></div>
+
+<header>
+	<nav class="navbar navbar">
+		<div class="container">
+			
+		    <div class="navbar-header">
+		    	<!-- LOGO -->
+		    	<a href="#" alt="clara - home" title="Home"><img id="logo" src="img/logo.png"></a>
+
+		    	<!-- SMARTPHONE -->
+				<button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
+					<span style="background-color:#FFFFFF" class="icon-bar"></span>
+					<span style="background-color:#FFFFFF" class="icon-bar"></span>
+					<span style="background-color:#FFFFFF" class="icon-bar"></span>
+				</button>
+				
+		    </div>
+
+			<div class="collapse navbar-collapse" id="menu_lista">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="link_menu"><a href="?i=projetos">Projetos</a></li>
+					<li class="link_menu"><a href="?i=contatos">Contatos</a></li>
+					<li class="link_menu"><a href="?i=sobre">Sobre</a></li>
+					<li class="link_menu"><a href="#help">Ajuda</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+</header>
+
+<div id="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-xs-12">
+				<a href="https://instagram.com/claraliviia" alt="betabase - home" title="Instagram"><img  id="profile" src="img/clara-profile.png"></a>
+			</div>
+
+			<div class="col-md-7 col-xs-12">
+				<h1 id="apresentation"><strong>Oioi, eu sou a Clara Lívia!</strong></h1>
+				<p>Atualmente sou estudante do último semestre
+					do <strong>curso técnico em informática</strong> pelo <a class="ifce" href="https://ifce.edu.br">Instituto Federal
+					de Educação, Ciência e Tecnologia do Ceará (IFCE)</a> - campus Fortaleza.
+				</p>
+				<p>Amo desenvolvimento front-end e pretendo ingressar no curso de <strong>Ciência da Computação</strong>,
+					em 2022, também pela rede Federal.
+				</p><br>
+				<p><a class="btn btn-lg" href="#" role="button" id="button">Leia mais</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="middle">
+	<div class="container">
+		<div class="row" id="center">
+			<div class="col" id="conteudo">
+				<label>
+					<h3><strong>Design Gráfico</strong></h3><br>
+					<p>Hey, sou uma estudante de programação apaixonada por design gráfico.</p>
+					<p>Que tal dar uma olhada nos meus trabalhos?</p><br>
+					<div  id="portfolio">
+						<p><a class="btn btn-lg" href="https://www.behance.net/claralivia/" role="button" id="button">Meu Portfólio</a></p>
+					</div>
+				</label>
+			</div>
+			<div class="col" id="conteudo-two">
+				<label>
+					<h3><strong>Programação</strong></h3><br>
+					<p>Já realizei alguns projetinhos em algumas linguagens,
+						como Python, Java e JavaScript.
+					</p>
+					<p>Clica no link e dá uma conferida, alguns são projetos escolares.</p><br>
+					<div  id="portfolio">
+						<p><a class="btn btn-lg" href="https://github.com/claralivia/" role="button" id="button-two">Meu GitHub</a></p>
+					</div>
+				</label>
+			</div>
+			<div class="col" id="conteudo">
+				<label>
+					<h3><strong>Linkedin</strong></h3><br>
+					<p>Procuro uma oportunidade para ingressar no mercado de trabalho
+						e desenvolver minhas habilidades e adquirir novos
+						conhecimentos.
+					</p>
+					<p>Já fiz alguns cursos na área.</p><br>
+					<div  id="portfolio">
+						<p><a class="btn btn-lg" href="https://www.linkedin.com/in/claralivia/" role="button" id="button">Meu Currículo</a></p>
+					</div>
+				</label>
+			</div>
+		</div> 
+	</div>
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"><a href="#"><img id="logo" src="img/logo.png"></a></div>
 			<div class="col-md-1 lista_footer"><a href="#">Sobre</a></div>
 			<div class="col-md-1 lista_footer"><a href="#">Navegar</a></div>
 			<div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
-			<div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div>
+			<div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div><br>
 		</div>
 		<div class="row">
-			<div class="col-md-10">
-				<p class="footer-text">© 2022 claralivia | Todos os direitos reservados. Em construção por <a class="portfolio" href="#">Clara Lívia</a>.</p>
+			<div class="col-md-12">
+				<p>© 2022 clara | Todos os direitos reservados. Em construção por <a title="Instagram" id="name" href="https://instagram.com/claraliviia">Clara Lívia</a>.</p>
 			</div>
 		</div>
-    </footer>
-    
+	</div>
+	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</footer>
 </body>
 </html>
