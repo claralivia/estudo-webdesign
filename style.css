@@ -1,0 +1,113 @@
+body{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    display: inline-block;
+    min-height: 77px;
+    background-color: #9873df;
+    max-width: 100%;
+    padding: 20px;
+}
+#container{
+    padding: 0 60px;
+}
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteudo{
+    background-color: #e95f86;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    min-height: 10pxpx;
+}
+#portfolio{
+    text-align: right;
+}
+.portfolio{
+    color: #FFFFFF;
+}
+.portfolio:hover{
+    color: #000000;
+    transform: scale(1.11);
+    font-weight: bolder;
+}
+nav{
+    float: right;
+    margin-top: 28px;
+    padding-left: 45px;
+}
+nav ul li a:hover{
+    transform: scale(1.11);
+    color: #000000;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 70%;
+    margin-right: 25px;
+}
+nav ul li{
+    text-align: center;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+}
+.profile{
+    max-width: 200px;
+    padding: 50px 0 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile:hover{
+    opacity: 0.5;
+    display: inline-block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    transform: scale(1.09);
+    cursor: pointer;
+}
+#who{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.apresentation{
+    padding-top: 18px;
+    color: #e95f86;
+}
+#apresentation{
+    text-align: left;
+    padding-right: 10px;
+}
+.ifce{
+    color: #000000;
+}
+.ifce:hover{
+    color: #9873df;
+}
+#logo{
+    width: 150px;
+    padding: 20px 0 0 45px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
