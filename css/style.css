@@ -12,6 +12,9 @@ footer{
 header{
     background-color: #9873df !important;
 }
+header img{
+    padding-left:25px;
+}
 nav{
     min-height: 90px;
     margin-bottom: 0 !important;
@@ -27,7 +30,7 @@ p{
 #main{
     padding: 60px; 
 }
-#main img  {
+#main img{
     max-height: 400px;
 }
 #main img:hover{
@@ -42,7 +45,7 @@ p{
     margin: 30px 0;
 }
 #logo{
-    margin:20px 10px;
+    margin:20px 0px;
 }
 #navegar{
     margin: 50px 0;
@@ -74,7 +77,12 @@ p{
     background-color: #e95f86;
     color: #FFFFFF;
 }
+#button-three{
+    border: 0.3px solid #ffffff28;
+    border-radius: 8px;
+}
 #apresentation{
+    padding-top: 45px;
     color: #e95f86;
 }
 #profile{  
