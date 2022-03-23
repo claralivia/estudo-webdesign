@@ -4,7 +4,6 @@
 	<title>clara</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,30 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
 
 <header>
-	<nav class="navbar navbar">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
 		<div class="container">
-			
-		    <div class="navbar-header">
 		    	<a href="#" alt="clara - home" title="Home"><img width="169px" id="logo" src="img/logo.svg"></a>
 
-				<button id="button-three" type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu_lista" aria-expanded="false">
-					<span style="background-color:#FFFFFF" class="icon-bar"></span>
-					<span style="background-color:#FFFFFF" class="icon-bar"></span>
-					<span style="background-color:#FFFFFF" class="icon-bar"></span>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				
-		    </div>
 
-			<div class="collapse navbar-collapse" id="menu_lista">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="link_menu"><a href="?i=projetos">Projetos</a></li>
-					<li class="link_menu"><a href="?i=contatos">Contatos</a></li>
-					<li class="link_menu"><a href="?i=sobre">Sobre</a></li>
-					<li class="link_menu"><a href="#help">Ajuda</a></li>
+			<div class="collapse navbar-collapse justify-content-end" id="menu">
+				<ul class="navbar-nav">
+					<li class="link_menu"><a href="?i=projetos" class="nav-link">Projetos</a></li>
+					<li class="link_menu"><a href="?i=contatos" class="nav-link">Contatos</a></li>
+					<li class="link_menu "><a href="?i=sobre" class="nav-link">Sobre</a></li>
+					<li class="link_menu"><a href="#help" class="nav-link">Ajuda</a></li>
 				</ul>
 			</div>
 
@@ -64,43 +56,39 @@
 		</div>
 	</div>
 </div>
+
 <div id="middle">
 	<div class="container">
 		<div class="row" id="center">
 			<div class="col" id="conteudo">
-				<label>
-					<h3><strong>Design Gráfico</strong></h3><br>
-					<p>Hey, sou uma estudante de programação apaixonada por design gráfico.</p>
-					<p>Que tal dar uma olhada nos meus trabalhos?</p><br>
-					<div  id="portfolio">
-						<p><a class="btn btn-lg" href="https://www.behance.net/claralivia/" role="button" id="button">Meu Portfólio</a></p>
-					</div>
-				</label>
-			</div>
+				<h3><strong>Design Gráfico</strong></h3><br>
+				<p>Hey, sou uma estudante de programação apaixonada por design gráfico.
+					<br><br>
+					Que tal dar uma olhada nos meus trabalhos?
+				</p>
+				<br>
+				<a class="btn btn-lg" href="https://www.behance.net/claralivia/" role="button" id="button">Meu Portfólio</a>
+		</div>
 			<div class="col" id="conteudo-two">
-				<label>
-					<h3><strong>Programação</strong></h3><br>
-					<p>Já realizei alguns projetinhos em algumas linguagens,
-						como Python, Java e JavaScript.
-					</p>
-					<p>Clica no link e dá uma conferida, alguns são projetos escolares.</p><br>
-					<div  id="portfolio">
-						<p><a class="btn btn-lg" href="https://github.com/claralivia/" role="button" id="button-two">Meu GitHub</a></p>
-					</div>
-				</label>
+				<h3><strong>Programação</strong></h3><br>
+				<p>Já realizei alguns projetinhos em algumas linguagens,
+					como Python, Java e JavaScript.
+					<br><br>
+					Clica no link e dá uma conferida, alguns são projetos escolares.
+				</p>
+				<br>
+				<a class="btn btn-lg" href="https://github.com/claralivia/" role="button" id="button-two">Meu GitHub</a>
 			</div>
 			<div class="col" id="conteudo">
-				<label>
-					<h3><strong>Open To Work</strong></h3><br>
-					<p>Procuro uma oportunidade para ingressar no mercado de trabalho,
-						desenvolver minhas habilidades e adquirir novos
-						conhecimentos.
-					</p>
-					<p>Já fiz alguns cursos na área de desenvolvimento.</p><br>
-					<div  id="portfolio">
-						<p><a class="btn btn-lg" href="assets/curriculo.pdf" target="_blank" role="button" id="button">Meu Currículo</a></p>
-					</div>
-				</label>
+				<h3><strong>Open To Work</strong></h3><br>
+				<p>Procuro uma oportunidade para ingressar no mercado de trabalho,
+					desenvolver minhas habilidades e adquirir novos
+					conhecimentos.
+					<br><br>
+					Já fiz alguns cursos na área de desenvolvimento.
+				</p>
+				<br>
+				<a class="btn btn-lg" href="assets/curriculo.pdf" target="_blank" role="button" id="button">Meu Currículo</a>
 			</div>
 		</div> 
 	</div>
@@ -110,10 +98,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2"><a href="#" title="Home"><img id="logo" src="img/logo.svg"></a></div>
-			<div class="col-md-1 lista_footer"><a href="#">Sobre</a></div>
-			<div class="col-md-1 lista_footer"><a href="#">Navegar</a></div>
-			<div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
-			<div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div><br>
+			<div class="col-md-1 lista_footer"><a href="?i=projetos">Projetos</a></div>
+			<div class="col-md-1 lista_footer"><a href="?i=contatos">Contatos</a></div>
+			<div class="col-md-1 lista_footer"><a href="?i=sobre">Sobre</a></div>
+			<div class="col-md-1 lista_footer"><a href="#help">Ajuda</a></div><br>
 		</div>
 		<div class="row">
 			<div class="col-md-12">

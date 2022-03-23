@@ -18,6 +18,7 @@ header img{
 nav{
     min-height: 90px;
     margin-bottom: 0 !important;
+    background-color: #9873df !important;
 }
 body{
     font-family: "Poppins", sans-serif !important;
@@ -29,6 +30,7 @@ p{
 
 #main{
     padding: 60px; 
+    margin-top: 90px;
 }
 #main img{
     max-height: 400px;
@@ -77,10 +79,6 @@ p{
     background-color: #e95f86;
     color: #FFFFFF;
 }
-#button-three{
-    border: 0.3px solid #ffffff28;
-    border-radius: 8px;
-}
 #apresentation{
     padding-top: 45px;
     color: #e95f86;
@@ -96,20 +94,25 @@ p{
     transition: all .2s ease-in-out;
 }
 #conteudo{
+    display: block;
+    justify-content: left;
+    align-items: left;
     background-color: #e95f86;
     padding: 30px;
     margin: 30px;
     border-radius: 30px;
     color: #FFFFFF;
-    min-height: 300px;
+
 }
 #conteudo-two{
+    display: block;
+    justify-content: left;
+    align-items: left;
     background-color: #9873df;
     padding: 30px;
     margin: 30px;
     border-radius: 30px;
     color: #FFFFFF;
-    min-height: 300px;
 }
 
 .lista_footer{
