@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 169 49" style="enable-background:new 0 0 169 49;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E95F86;}
+	.st1{font-family:'Poppins', sansserif;}
+	.st2{font-size:62.6641px;}
+	.st3{fill:#FFFFFF;}
+	.st4{font-weight: bolder}
+</style>
+<font horiz-adv-x="1000">
+<!-- Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins) -->
+<!-- Copyright: Copyright 2022 Adobe System Incorporated. All rights reserved. -->
+<font-face font-family="Poppins-ExtraBold" units-per-em="1000" underline-position="-75" underline-thickness="50"/>
+<missing-glyph horiz-adv-x="500" d="M0,700l500,0l0,-700l-500,0M420,650l-340,0l170,-255M50,95l170,255l-170,255M450,95l0,510l-170,-255M420,50l-170,255l-170,-255z"/>
+<glyph unicode="a" horiz-adv-x="680" d="M263,568C302,568 335,560 363,545C391,530 413,509 428,483l0,78l196,0l0,-561l-196,0l0,78C413,52 391,31 363,16C334,1 301,-7 263,-7C218,-7 178,5 142,28C105,51 77,85 56,129C35,172 24,223 24,281C24,339 35,390 56,433C77,476 105,510 142,533C178,556 218,568 263,568M326,397C297,397 272,387 253,367C234,346 224,318 224,281C224,245 234,217 253,196C272,175 297,164 326,164C355,164 379,174 399,195C418,216 428,244 428,281C428,317 418,345 399,366C379,387 355,397 326,397z"/>
+<glyph unicode="c" horiz-adv-x="607" d="M308,568C379,568 439,549 488,510C537,471 568,416 582,346l-208,0C362,383 339,401 304,401C279,401 260,391 246,371C231,350 224,320 224,281C224,242 231,212 246,191C260,170 279,160 304,160C339,160 363,178 374,215l208,0C568,146 537,91 488,52C439,13 379,-7 308,-7C253,-7 204,5 161,28C118,51 84,85 60,128C36,171 24,222 24,281C24,339 36,390 60,433C84,476 118,510 161,533C204,556 253,568 308,568z"/>
+<glyph unicode="l" horiz-adv-x="308" d="M252,740l0,-740l-196,0l0,740z"/>
+<glyph unicode="r" horiz-adv-x="447" d="M433,566l0,-209l-55,0C335,357 304,349 283,332C262,315 252,286 252,245l0,-245l-196,0l0,561l196,0l0,-99C274,494 301,519 332,538C363,557 397,566 433,566z"/>
+</font>
+
+	<g>
+	<text transform="matrix(1 0 0 1 -0.7849 47.3477)"><tspan x="0" y="0" class="st0 st1 st2 st4">cl</tspan><tspan x="57.34" y="0" class="st3 st1 st2 st4">ara</tspan></text>
+</g>
+</svg>
